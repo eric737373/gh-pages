@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>1.网站登录</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <div class="nav-left"><a class="back-link" href="../index.zh.html">← 返回首页</a></div>
+        <div class="nav-right"><button onclick="changeLang('zh')">ZH</button> <button onclick="changeLang('en')">EN</button> <button onclick="changeLang('es')">ES</button> </div>
+    </div>
+    
+    <script>
+    function changeLang(l){
+        const current = window.location.href;
+        const newUrl = current.replace(/\.(zh|en|es)\.html/, "." + l + ".html");
+        window.location.href = newUrl;
+    }
+    </script>
+    
+    
+    <div class="doc-layout">
+        <aside class="toc">
+            <div class="toc-sticky">
+                <h3>目录</h3>
+                <div class="toc">
+<ul>
+<li><a href="#_1">网站登录</a><ul>
+<li><a href="#_2">通过车队账号登录</a></li>
+<li><a href="#_3">通过劳务账号登录</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+            </div>
+        </aside>
+        <main class="content">
+            <h1 id="_1">网站登录</h1>
+<p>登录地址： <a href="https://supplier-portal.yanwenexpress.com/common/login">https://supplier-portal.yanwenexpress.com/common/login</a></p>
+<p><img alt="image" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/5VLqXLb7AYg3vqX1/img/f5ee6aac-357e-4e99-bf37-c4517ee4042e.png" /></p>
+<p>示例：供应商门户登录页面</p>
+<h2 id="_2">通过车队账号登录</h2>
+<p>账号： FLT000000,密码：<code>********</code> （示例）。实际请使用分配的正式账号与密码。</p>
+<p>教程网站： <a href="https://yw-helper.yanwenexpress.com/">https://yw-helper.yanwenexpress.com/</a></p>
+<h2 id="_3">通过劳务账号登录</h2>
+<p>账号： LSC000000,密码：<code>********</code> （示例）。实际请使用分配的正式账号与密码。</p>
+<p>教程网站： <a href="https://eric737373.github.io/ProviderSOP/pages/2.%E4%BE%9B%E5%BA%94%E5%95%86%E9%97%A8%E6%88%B7_2.%E5%8A%B3%E5%8A%A1%E6%A8%A1%E5%9D%97%E5%B8%AE%E5%8A%A9%E6%89%8B%E5%86%8C.zh.html">劳务模块帮助手册.zh.html</a></p>
+        </main>
+    </div>
+</body>
+</html>

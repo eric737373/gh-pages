@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>1.ADP自提商品流程</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <div class="nav-left"><a class="back-link" href="../index.es.html">← Inicio</a></div>
+        <div class="nav-right"><button onclick="changeLang('zh')">ZH</button> <button onclick="changeLang('en')">EN</button> <button onclick="changeLang('es')">ES</button> </div>
+    </div>
+    
+    <script>
+    function changeLang(l){
+        const current = window.location.href;
+        const newUrl = current.replace(/\.(zh|en|es)\.html/, "." + l + ".html");
+        window.location.href = newUrl;
+    }
+    </script>
+    
+    
+    <div class="doc-layout">
+        <aside class="toc">
+            <div class="toc-sticky">
+                <h3>Contents</h3>
+                <div class="toc">
+<ul>
+<li><a href="#proceso-de-producto-de-recogida-automatica-de-adp">Proceso de producto de recogida automática de ADP</a><ul>
+<li><a href="#proceso-de-autorecogida">Proceso de autorecogida:</a><ul>
+<li><a href="#1-preoperacion">1. Preoperación:</a></li>
+<li><a href="#2-operaciones-de-almacen">2. Operaciones de almacén:</a></li>
+<li><a href="#3-entrega-de-mercancias-con-recogida-automatica">3. Entrega de mercancías con recogida automática:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+            </div>
+        </aside>
+        <main class="content">
+            <h1 id="proceso-de-producto-de-recogida-automatica-de-adp">Proceso de producto de recogida automática de ADP</h1>
+<h2 id="proceso-de-autorecogida">Proceso de autorecogida:</h2>
+<h5 id="1-preoperacion">1. Preoperación:</h5>
+<ol>
+<li>
+<p>El cliente envía una solicitud y selecciona un período de tiempo de recogida</p>
+</li>
+<li>
+<p>El servicio de atención al cliente confirma la recogida automática, agrega el número de pedido al sistema LMS y notifica al administrador del almacén a través de DingTalk.</p>
+</li>
+<li>
+<p>La persona a cargo del almacén verifica la notificación de DingTalk (o verifica la lista de artículos para recoger en la lista de pedidos de LMS todos los días) y maneja la lista, y al mismo tiempo responde al departamento de servicio al cliente para su confirmación.</p>
+</li>
+</ol>
+<h5 id="2-operaciones-de-almacen">2. Operaciones de almacén:</h5>
+<p>Haga clic en [Productos con autorecogida en estanterías]</p>
+<p><img alt="Picture1.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/c4e3407c-b432-4d7f-94a4-1318dbcc350a.png" /> La página de listado de productos es la siguiente. El número de pedido ingresado proviene del sistema.</p>
+<p><img alt="Picture2.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/6a497368-f5e7-41d4-b244-148b5669f36a.png" /></p>
+<p>Al hacer clic en [Confirmar] se mostrará éxito o error.</p>
+<p><img alt="Picture3.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/96c8d9fb-7d99-4e9d-9846-fd573e6b588d.png" /></p>
+<p>Error 1: la carta de porte no existe</p>
+<p><img alt="Picture4.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/b40f474e-695c-4300-bc12-5e1262309710.png" /></p>
+<p>Error 2: No hay aplicación de recogida automática</p>
+<p><img alt="Picture5.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/7acd0c3d-3499-4a5c-8cb8-0e688abb5427.png" /></p>
+<p>Error 3: La mercancía ha sido recogida</p>
+<p><img alt="Picture6.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/8718e09e-011e-41b0-883a-53b3ed29bf22.png" /></p>
+<h5 id="3-entrega-de-mercancias-con-recogida-automatica">3. Entrega de mercancías con recogida automática:</h5>
+<p><img alt="Picture7.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/290389fa-1e16-4c5d-b1d0-db2956a615f8.png" /></p>
+<p>Escanea la mercancía y recógela con éxito.</p>
+<p><img alt="Picture8.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/97c41894-683e-42af-924e-308abfd78b5c.png" /> <img alt="Picture9.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/2151a6b8-a2d4-4424-8319-4b02e4a39731.png" /></p>
+<p>error de recogida</p>
+<p>Error 1: el código de recogida no coincide (pídale a la persona que lo recoge que verifique el código de recogida)</p>
+<p><img alt="Picture10.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/d7393602-4b52-4e5c-9987-ba52b506c1ef.png" /></p>
+<p>Error 2: Los productos no están listos para ser recogidos (repita el proceso de listado)</p>
+<p><img alt="Picture11.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/142a4d0c-d897-4b17-be28-f02b455fdee3.png" /></p>
+<p>Error 3: La mercancía ha sido recogida (consulte las fotos de clientes anteriores recogiendo la mercancía)</p>
+<p><img alt="Picture12.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/f3daa846-4aa7-42cd-b32c-6302e2ea01f7.png" /></p>
+        </main>
+    </div>
+</body>
+</html>

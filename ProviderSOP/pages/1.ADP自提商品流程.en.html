@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>1.ADP自提商品流程</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <div class="nav-left"><a class="back-link" href="../index.en.html">← Home</a></div>
+        <div class="nav-right"><button onclick="changeLang('zh')">ZH</button> <button onclick="changeLang('en')">EN</button> <button onclick="changeLang('es')">ES</button> </div>
+    </div>
+    
+    <script>
+    function changeLang(l){
+        const current = window.location.href;
+        const newUrl = current.replace(/\.(zh|en|es)\.html/, "." + l + ".html");
+        window.location.href = newUrl;
+    }
+    </script>
+    
+    
+    <div class="doc-layout">
+        <aside class="toc">
+            <div class="toc-sticky">
+                <h3>Contents</h3>
+                <div class="toc">
+<ul>
+<li><a href="#adp-self-pickup-product-process">ADP self-pickup product process</a><ul>
+<li><a href="#self-pickup-process">Self-pickup process:</a><ul>
+<li><a href="#1-pre-operation">1. Pre-operation:</a></li>
+<li><a href="#2-warehouse-operations">2. Warehouse operations:</a></li>
+<li><a href="#3-self-pickup-goods-handover">3. Self-pickup goods handover:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+            </div>
+        </aside>
+        <main class="content">
+            <h1 id="adp-self-pickup-product-process">ADP self-pickup product process</h1>
+<h2 id="self-pickup-process">Self-pickup process:</h2>
+<h5 id="1-pre-operation">1. Pre-operation:</h5>
+<ol>
+<li>
+<p>The customer submits an application and selects a self-collection time period</p>
+</li>
+<li>
+<p>Customer service confirms self-pickup, adds the order number to the LMS system and notifies the warehouse manager via DingTalk</p>
+</li>
+<li>
+<p>The person in charge of the warehouse checks the DingTalk notification (or checks the list of items to be picked up in the LMS order list every day) and handles the listing, and at the same time replies to the customer service department for confirmation.</p>
+</li>
+</ol>
+<h5 id="2-warehouse-operations">2. Warehouse operations:</h5>
+<p>Click [Self-pickup goods on shelves]</p>
+<p><img alt="Picture1.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/c4e3407c-b432-4d7f-94a4-1318dbcc350a.png" /> The goods listing page is as follows. The order number entered comes from the system.</p>
+<p><img alt="Picture2.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/6a497368-f5e7-41d4-b244-148b5669f36a.png" /></p>
+<p>Clicking [Confirm] will display success or error.</p>
+<p><img alt="Picture3.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/96c8d9fb-7d99-4e9d-9846-fd573e6b588d.png" /></p>
+<p>Error 1: Waybill does not exist</p>
+<p><img alt="Picture4.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/b40f474e-695c-4300-bc12-5e1262309710.png" /></p>
+<p>Error 2: No self-pickup application</p>
+<p><img alt="Picture5.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/7acd0c3d-3499-4a5c-8cb8-0e688abb5427.png" /></p>
+<p>Error 3: The goods have been picked up</p>
+<p><img alt="Picture6.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/8718e09e-011e-41b0-883a-53b3ed29bf22.png" /></p>
+<h5 id="3-self-pickup-goods-handover">3. Self-pickup goods handover:</h5>
+<p><img alt="Picture7.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/290389fa-1e16-4c5d-b1d0-db2956a615f8.png" /></p>
+<p>Scan the goods and pick them up successfully</p>
+<p><img alt="Picture8.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/97c41894-683e-42af-924e-308abfd78b5c.png" /> <img alt="Picture9.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/2151a6b8-a2d4-4424-8319-4b02e4a39731.png" /></p>
+<p>Pickup error</p>
+<p>Error 1: The pickup code does not match (ask the pickup person to check the pickup code)</p>
+<p><img alt="Picture10.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/d7393602-4b52-4e5c-9987-ba52b506c1ef.png" /></p>
+<p>Error 2: The goods are not ready for pickup (please repeat the listing process)</p>
+<p><img alt="Picture11.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/142a4d0c-d897-4b17-be28-f02b455fdee3.png" /></p>
+<p>Error 3: The goods have been picked up (check the photos of previous customers picking up goods)</p>
+<p><img alt="Picture12.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/QvjnA3j0Jx1zBOXo/img/f3daa846-4aa7-42cd-b32c-6302e2ea01f7.png" /></p>
+        </main>
+    </div>
+</body>
+</html>
