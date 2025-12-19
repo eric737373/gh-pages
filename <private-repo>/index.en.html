@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Documentation Hub</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <div class="nav-left"></div>
+        <div class="nav-right"><button onclick="changeLang('zh')">ZH</button> <button onclick="changeLang('en')">EN</button> <button onclick="changeLang('es')">ES</button> </div>
+    </div>
+    
+    <script>
+    function changeLang(l){
+        const current = window.location.href;
+        const newUrl = current.replace(/\.(zh|en|es)\.html/, "." + l + ".html");
+        window.location.href = newUrl;
+    }
+    </script>
+    
+    
+    <div class="index-container">
+        <header class="index-header">
+            <h1>Documentation Hub</h1>
+            <p>Choose a document to start reading</p>
+        </header>
+        <div class="tree-box">
+            <div class="file-item" style="margin-left:0px"><a href="pages/1.ADP自提商品流程.en.html">1.ADP self-pickup product process</a></div><h3 class="dir-title" style="margin-left:0px">2. Supplier Portal</h3><div class="file-item" style="margin-left:24px"><a href="pages/2.供应商门户_1.网站登录.en.html">1. Website login</a></div><div class="file-item" style="margin-left:24px"><a href="pages/2.供应商门户_2.劳务模块帮助手册.en.html">2. Labor module help manual</a></div>
+        </div>
+    </div>
+</body>
+</html>
