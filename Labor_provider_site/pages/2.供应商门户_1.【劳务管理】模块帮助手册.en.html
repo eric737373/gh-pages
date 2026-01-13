@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>1.【劳务管理】模块帮助手册</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <div class="nav-left"><a class="back-link" href="../index.en.html">← Home</a></div>
+        <div class="nav-right"><button onclick="changeLang('zh')">ZH</button> <button onclick="changeLang('en')">EN</button> <button onclick="changeLang('es')">ES</button> </div>
+    </div>
+    
+    <script>
+    function changeLang(l){
+        const current = window.location.href;
+        const newUrl = current.replace(/\.(zh|en|es)\.html/, "." + l + ".html");
+        window.location.href = newUrl;
+    }
+    </script>
+    
+    
+    <div class="doc-layout">
+        <aside class="toc">
+            <h3>Contents</h3>
+            <div class="toc-content">
+                <div class="toc">
+<ul>
+<li><a href="#labor-module-help-manual">Labor module help manual</a><ul>
+<li><a href="#fill-in-working-hours">Fill in working hours</a></li>
+<li><a href="#apply-for-payment">Apply for payment</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+            </div>
+        </aside>
+        <main class="content">
+            <h1 id="labor-module-help-manual">Labor module help manual</h1>
+<p>Supplier Portal: <a href="https://supplier-portal.yanwenexpress.com/common/login">https://supplier-portal.yanwenexpress.com/common/login</a></p>
+<p>When the labor supplier enters the supplier portal, log in to the labor account and use the [Labor Management] module</p>
+<p>The module contains information that the current labor supplier needs to fill in, as well as some bill details.</p>
+<h3 id="fill-in-working-hours">Fill in working hours</h3>
+<p>The [working hours report] module is used by the Yanwen system to dispatch the labor requirements sent to the current labor account.</p>
+<p><img alt="image.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/Pd6l2Z7m4B7kVl7M/img/253a6d2b-53cd-4108-a01c-012930d8e01d.png" /></p>
+<p>Each row represents a different batch of labor demand. Each batch can be filled with multiple labor personnel. The filling status is initially unfilled. Click to fill in. The interface is as follows:</p>
+<p><img alt="image.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/Pd6l2Z7m4B7kVl7M/img/fcc6da6c-bc1f-4d2f-b9f6-c064764c19a1.png" /></p>
+<ol>
+<li>
+<p>In the upper left corner, you can fill in numbers to represent the number of additional labor personnel.</p>
+</li>
+<li>
+<p>Each line needs to fill in the commuting time, and the working hours will be automatically calculated.</p>
+</li>
+<li>
+<p>When the form is completed, click Save and the bill will become filled in.</p>
+</li>
+</ol>
+<h3 id="apply-for-payment">Apply for payment</h3>
+<p>[Apply for payment] The catalog contains entries filled in for approved working hours before the previous week. You can upload bill details and wait for payment.</p>
+<p>If the entry is not displayed, it means there is no related bill</p>
+<p><img alt="image.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/Pd6l2Z7m4B7kVl7M/img/f175a609-d331-4018-b2f6-d68ef598bbd0.png" /></p>
+<p>You can see the calculated payment details by clicking [View Bill]</p>
+<p><img alt="image.png" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/Pd6l2Z7m4B7kVl7M/img/e378a4a7-37fa-4adf-bab7-114030e9688f.png" /></p>
+        </main>
+    </div>
+</body>
+</html>

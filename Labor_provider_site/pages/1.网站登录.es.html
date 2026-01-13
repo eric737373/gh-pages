@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>1.网站登录</title>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <div class="nav-left"><a class="back-link" href="../index.es.html">← Inicio</a></div>
+        <div class="nav-right"><button onclick="changeLang('zh')">ZH</button> <button onclick="changeLang('en')">EN</button> <button onclick="changeLang('es')">ES</button> </div>
+    </div>
+    
+    <script>
+    function changeLang(l){
+        const current = window.location.href;
+        const newUrl = current.replace(/\.(zh|en|es)\.html/, "." + l + ".html");
+        window.location.href = newUrl;
+    }
+    </script>
+    
+    
+    <div class="doc-layout">
+        <aside class="toc">
+            <h3>Contents</h3>
+            <div class="toc-content">
+                <div class="toc">
+<ul>
+<li><a href="#inicio-de-sesion-en-el-sitio-web">Inicio de sesión en el sitio web</a><ul>
+<li><a href="#inicie-sesion-a-traves-de-la-cuenta-de-servicio-laboral">Inicie sesión a través de la cuenta de servicio laboral</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+            </div>
+        </aside>
+        <main class="content">
+            <h1 id="inicio-de-sesion-en-el-sitio-web">Inicio de sesión en el sitio web</h1>
+<p>Dirección de inicio de sesión: <a href="https://supplier-portal.yanwenexpress.com/common/login">https://supplier-portal.yanwenexpress.com/common/login</a></p>
+<p><img alt="image" src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/5VLqXLb7AYg3vqX1/img/f5ee6aac-357e-4e99-bf37-c4517ee4042e.png" /></p>
+<p>Ejemplo: página de inicio de sesión del portal de proveedores</p>
+<h2 id="inicie-sesion-a-traves-de-la-cuenta-de-servicio-laboral">Inicie sesión a través de la cuenta de servicio laboral</h2>
+<p>Cuenta: LSC000000, contraseña: <code>********</code> (ejemplo).Utilice la cuenta oficial y la contraseña asignadas.</p>
+        </main>
+    </div>
+</body>
+</html>
